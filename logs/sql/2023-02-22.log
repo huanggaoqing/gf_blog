@@ -1,0 +1,75 @@
+2023-02-22 20:45:02.911 [DEBU] {0066aaef3026461772f43111a46bff61} [ 47 ms] [default] [blog] [rows:10 ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-22 20:45:02.918 [DEBU] {0066aaef3026461772f43111a46bff61} [  7 ms] [default] [blog] [rows:1  ] SELECT `user_id`,`user_name`,`password`,`phone_number`,`user_type`,`open_id`,`avatar`,`role`,`create_time`,`update_time` FROM `blog_user` WHERE phone_number = '16619827553' LIMIT 1
+2023-02-22 20:47:37.117 [DEBU] {90ee15d954264617d3644c21982b4952} [ 13 ms] [default] [blog] [rows:10 ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-22 20:47:37.133 [DEBU] {90ee15d954264617d3644c21982b4952} [ 15 ms] [default] [blog] [rows:1  ] SELECT `user_id`,`user_name`,`password`,`phone_number`,`user_type`,`open_id`,`avatar`,`role`,`create_time`,`update_time` FROM `blog_user` WHERE phone_number = '16619827553' LIMIT 1
+2023-02-22 20:47:49.187 [DEBU] {7816caa857264617d4644c21d99bc11d} [  9 ms] [default] [blog] [rows:0  ] SELECT `user_id`,`user_name`,`password`,`phone_number`,`user_type`,`open_id`,`avatar`,`role`,`create_time`,`update_time` FROM `blog_user` WHERE phone_number = '16619827556' LIMIT 1
+2023-02-22 20:47:49.194 [ERRO] {7816caa857264617d4644c21d99bc11d} [  7 ms] [default] [blog] [rows:0  ] INSERT INTO `blog_user`(`password`,`avatar`,`phone_number`,`user_name`) VALUES('huanggaoqing0119','666','16619827556','HGQ') 
+Error: Error 1364 (HY000): Field 'user_id' doesn't have a default value
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoExec
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:136
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoInsert
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:448
+5.  github.com/gogf/gf/v2/database/gdb.(*HookInsertInput).Next
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:122
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doInsertWithOption
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_insert.go:371
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Insert
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_insert.go:193
+8.  gf_blog/internal/logic/user.(*sUser).Register
+    /Users/huanggaoqing/workspace/gf_blog/internal/logic/user/user.go:33
+9.  gf_blog/internal/controller.(*cUser).Register
+    /Users/huanggaoqing/workspace/gf_blog/internal/controller/user.go:21
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+11. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:75
+14. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+16. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+18. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+20. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+22. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+24. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+26. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+28. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/huanggaoqing/GolandProjects/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-22 20:52:57.979 [DEBU] {a0938a8c9f26461734bb81534934dd02} [ 23 ms] [default] [blog] [rows:10 ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-22 20:52:57.980 [DEBU] {a0938a8c9f26461734bb81534934dd02} [  1 ms] [default] [blog] [rows:0  ] SELECT `user_id`,`user_name`,`password`,`phone_number`,`user_type`,`open_id`,`avatar`,`role`,`create_time`,`update_time` FROM `blog_user` WHERE phone_number = '16619827556' LIMIT 1
+2023-02-22 20:52:57.993 [DEBU] {a0938a8c9f26461734bb81534934dd02} [ 13 ms] [default] [blog] [rows:1  ] INSERT INTO `blog_user`(`user_name`,`avatar`,`phone_number`,`password`,`user_id`) VALUES('HGQ','666','16619827556','huanggaoqing0119','6') 
+2023-02-22 20:55:42.160 [DEBU] {58bd1ec8c526461789772d4e2e61c7c1} [ 10 ms] [default] [blog] [rows:10 ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-22 20:55:42.161 [DEBU] {58bd1ec8c526461789772d4e2e61c7c1} [  1 ms] [default] [blog] [rows:0  ] SELECT `user_id`,`user_name`,`password`,`phone_number`,`user_type`,`open_id`,`avatar`,`role`,`create_time`,`update_time` FROM `blog_user` WHERE phone_number = '16619827556' LIMIT 1
+2023-02-22 20:55:42.167 [DEBU] {58bd1ec8c526461789772d4e2e61c7c1} [  6 ms] [default] [blog] [rows:1  ] INSERT INTO `blog_user`(`password`,`user_id`,`user_name`,`avatar`,`phone_number`) VALUES('huanggaoqing0119','6','HGQ','666','16619827556') 
+2023-02-22 20:57:39.560 [DEBU] {58a2791ce12646178597b87416e30985} [ 22 ms] [default] [blog] [rows:10 ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-22 20:57:39.565 [DEBU] {58a2791ce12646178597b87416e30985} [  4 ms] [default] [blog] [rows:1  ] SELECT `user_id`,`user_name`,`password`,`phone_number`,`user_type`,`open_id`,`avatar`,`role`,`create_time`,`update_time` FROM `blog_user` WHERE phone_number = '16619827556' LIMIT 1
+2023-02-22 20:59:23.146 [DEBU] {d0da6a3af9264617f12cb95556c9ac53} [ 35 ms] [default] [blog] [rows:10 ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-22 20:59:23.149 [DEBU] {d0da6a3af9264617f12cb95556c9ac53} [  2 ms] [default] [blog] [rows:1  ] SELECT `user_id`,`user_name`,`password`,`phone_number`,`user_type`,`open_id`,`avatar`,`role`,`create_time`,`update_time` FROM `blog_user` WHERE phone_number = '16619827556' LIMIT 1
