@@ -13,7 +13,6 @@ import (
 type (
 	IUser interface {
 		Register(ctx context.Context, in *model.RegisterInput) (out *model.RegisterOutput, err error)
-		Login(ctx context.Context, in *model.LoginInput) (out *model.LoginOutput, err error)
 	}
 )
 

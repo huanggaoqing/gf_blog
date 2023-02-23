@@ -38,11 +38,6 @@ func (s *sUser) Register(ctx context.Context, in *model.RegisterInput) (out *mod
 	return &model.RegisterOutput{UserId: in.UserId}, nil
 }
 
-// Login 用户登录
-func (s *sUser) Login(ctx context.Context, in *model.LoginInput) (out *model.LoginOutput, err error) {
-	return
-}
-
 // checkPhoneNumberExits 通过手机号查找用户是否存在
 func (s *sUser) checkPhoneNumberIsExits(ctx context.Context, phone string) (out *do.BlogUser, err error) {
 	user := &do.BlogUser{}

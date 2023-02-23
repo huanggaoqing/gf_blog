@@ -26,15 +26,17 @@ var (
 				group.Middleware(ghttp.MiddlewareHandlerResponse)
 				// 不需要token鉴权的路由
 				group.Bind(
-					controller.User,
+					controller.User.Register,
 				)
-				// 启动token鉴权
-				err := frontendToken.Middleware(ctx, group)
-				if err != nil {
-					return
-				}
-				// 需要token鉴权的路由
-				group.Bind()
+				group.Group("/", func(group *ghttp.RouterGroup) {
+					// 启动token鉴权
+					err := frontendToken.Middleware(ctx, group)
+					if err != nil {
+						return
+					}
+					// 需要token鉴权的路由
+					group.Bind()
+				})
 			})
 			s.Run()
 			return nil

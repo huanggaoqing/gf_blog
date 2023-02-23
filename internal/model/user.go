@@ -12,9 +12,3 @@ type RegisterInput struct {
 type RegisterOutput struct {
 	UserId string
 }
-
-type LoginInput struct {
-}
-
-type LoginOutput struct {
-}
