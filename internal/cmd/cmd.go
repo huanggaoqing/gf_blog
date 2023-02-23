@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"context"
+	"gf_blog/internal/cmd/loginAuth"
 
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
@@ -17,7 +18,7 @@ var (
 		Brief: "start http server",
 		Func: func(ctx context.Context, parser *gcmd.Parser) (err error) {
 			s := g.Server()
-			frontendToken, err := StartFrontendToken()
+			frontendToken, err := loginAuth.StartFrontendToken()
 			if err != nil {
 				return err
 			}
