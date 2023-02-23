@@ -25,7 +25,7 @@ func frontendLoginBefore(r *ghttp.Request) (string, interface{}) {
 	name := r.Get("userName").String()
 	password := r.Get("password").String()
 	if name == "" || password == "" {
-		r.Response.WriteJson("登录失败，账号或密码错误")
+		r.Response.WriteJson(gtoken.Fail("登录失败，账号或密码错误"))
 		r.ExitAll()
 	}
 	user := &entity.BlogUser{}
