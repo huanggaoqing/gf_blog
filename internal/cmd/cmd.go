@@ -28,6 +28,7 @@ var (
 				// 不需要token鉴权的路由
 				group.Bind(
 					controller.User.Register,
+					controller.Introduction.GetByUserId,
 				)
 				group.Group("/", func(group *ghttp.RouterGroup) {
 					// 启动token鉴权

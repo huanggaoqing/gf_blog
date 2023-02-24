@@ -5,5 +5,6 @@
 package logic
 
 import (
+	_ "gf_blog/internal/logic/introduction"
 	_ "gf_blog/internal/logic/user"
 )
