@@ -9,9 +9,9 @@ type GetIntroductionInfoReq struct {
 }
 
 type GetIntroductionInfoRes struct {
-	ProfileId  string `json:"profileId"`
-	UserId     string `json:"userId"`
-	Content    string `json:"content"`
-	CreateTime string `json:"createTime"`
-	UpdateTime string `json:"updateTime"`
+	IntroductionId string `json:"introductionId"`
+	UserId         string `json:"userId"`
+	Content        string `json:"content"`
+	CreateTime     string `json:"createTime"`
+	UpdateTime     string `json:"updateTime"`
 }

@@ -5,9 +5,9 @@ type GetIntroductionByUserIdInput struct {
 }
 
 type GetIntroductionByUserIdOutput struct {
-	ProfileId  string
-	UserId     string
-	Content    string
-	CreateTime string
-	UpdateTime string
+	IntroductionId string
+	UserId         string
+	Content        string
+	CreateTime     string
+	UpdateTime     string
 }

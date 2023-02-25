@@ -15,6 +15,6 @@ type BlogTag struct {
 	Id         interface{} //
 	Name       interface{} //
 	Url        interface{} //
-	CreateTime *gtime.Time //
-	UpdateTime *gtime.Time //
+	CreateTime *gtime.Time // 创建时间
+	UpdateTime *gtime.Time // 更新时间
 }

@@ -13,6 +13,6 @@ type BlogTag struct {
 	Id         int64       `json:"id"         ` //
 	Name       string      `json:"name"       ` //
 	Url        string      `json:"url"        ` //
-	CreateTime *gtime.Time `json:"createTime" ` //
-	UpdateTime *gtime.Time `json:"updateTime" ` //
+	CreateTime *gtime.Time `json:"createTime" ` // 创建时间
+	UpdateTime *gtime.Time `json:"updateTime" ` // 更新时间
 }

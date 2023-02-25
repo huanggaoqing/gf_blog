@@ -23,8 +23,8 @@ type BlogTagColumns struct {
 	Id         string //
 	Name       string //
 	Url        string //
-	CreateTime string //
-	UpdateTime string //
+	CreateTime string // 创建时间
+	UpdateTime string // 更新时间
 }
 
 // blogTagColumns holds the columns for table blog_tag.

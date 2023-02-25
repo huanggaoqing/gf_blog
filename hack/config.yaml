@@ -4,4 +4,4 @@
 gfcli:
     gen:
       dao:
-        link: "mysql:root:huanggaoqing@tcp(127.0.0.1:3306)/blog"
+        link: "mysql:root:huanggaoqing0119@tcp(127.0.0.1:3306)/blog"

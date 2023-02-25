@@ -1,0 +1,1332 @@
+2023-02-25 00:53:54.895 [DEBU] {b00cfab2eed0461729d1464e8107411f} [ 27 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 00:53:54.903 [DEBU] {b00cfab2eed0461729d1464e8107411f} [  7 ms] [default] [blog] [rows:0  ] SELECT `user_id`,`user_name`,`password`,`phone_number`,`create_time`,`update_time`,`avatar`,`role` FROM `blog_user` WHERE phone_number = '16619827553' LIMIT 1
+2023-02-25 00:53:54.906 [DEBU] {b00cfab2eed0461729d1464e8107411f} [  3 ms] [default] [blog] [rows:1  ] INSERT INTO `blog_user`(`avatar`,`phone_number`,`password`,`user_id`,`user_name`) VALUES('666','16619827553','huanggaoqing0119','417122001472192512','GaoQing') 
+2023-02-25 00:55:50.127 [DEBU] {d8c5058809d14617790daa7894078900} [ 17 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 00:55:50.130 [DEBU] {d8c5058809d14617790daa7894078900} [  2 ms] [default] [blog] [rows:1  ] SELECT `user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 00:57:11.632 [DEBU] {60c1f2811cd14617d0142248535d9159} [ 19 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 00:57:11.634 [DEBU] {60c1f2811cd14617d0142248535d9159} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:00:40.038 [DEBU] {d87a31044dd146179b827a6b7860bb4f} [ 81 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 01:00:40.041 [DEBU] {d87a31044dd146179b827a6b7860bb4f} [  2 ms] [default] [blog] [rows:0  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='5' LIMIT 1
+2023-02-25 01:00:43.207 [DEBU] {9083ccc54dd146179c827a6ba1d72f90} [  3 ms] [default] [blog] [rows:0  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='5' LIMIT 1
+2023-02-25 01:01:12.003 [DEBU] {90ea1f7354d1461777329f34ce3d484e} [119 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 01:01:12.007 [DEBU] {90ea1f7354d1461777329f34ce3d484e} [  2 ms] [default] [blog] [rows:0  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192500' LIMIT 1
+2023-02-25 01:01:12.956 [DEBU] {a813d1b254d1461778329f34843d3063} [  6 ms] [default] [blog] [rows:0  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192500' LIMIT 1
+2023-02-25 01:01:12.996 [DEBU] {686198b554d1461779329f34a0f43c97} [  0 ms] [default] [blog] [rows:0  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192500' LIMIT 1
+2023-02-25 01:01:15.044 [DEBU] {30428e2f55d146177a329f347c63140d} [  2 ms] [default] [blog] [rows:0  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192500' LIMIT 1
+2023-02-25 01:01:32.749 [DEBU] {40d9554e59d146177b329f34b601dc77} [ 10 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:01:35.116 [DEBU] {10bee0db59d146177c329f3412f74c29} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:02:02.612 [DEBU] {f891174260d146177d329f343e7b4e6d} [ 14 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:02:02.639 [DEBU] {a85c1d4460d146177e329f349d3e72f5} [  5 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:02:03.797 [DEBU] {d0d3658960d146177f329f3442666fd3} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:02:03.858 [DEBU] {c85a158d60d1461780329f3427cf5f1a} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:02:05.317 [DEBU] {b00323e460d1461781329f34e7883b93} [  0 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:02:05.650 [DEBU] {70ecfcf760d1461782329f340d6bddde} [  0 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:02:25.630 [DEBU] {48501c9d65d146175a5a2c41401fecd1} [ 28 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 01:02:25.631 [DEBU] {48501c9d65d146175a5a2c41401fecd1} [  0 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:02:42.578 [DEBU] {b0a8fa9069d146175b5a2c412615ffe3} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:02:48.244 [DEBU] {c04fa0e26ad146175c5a2c4142ec0dd0} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:03:14.730 [DEBU] {e0aab50a71d146175d5a2c41e07f1459} [ 46 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:03:46.270 [DEBU] {602a966478d146175e5a2c411155c0f3} [ 10 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:03:48.779 [DEBU] {984cd7fa78d146175f5a2c41c8a5caf6} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:03:51.210 [DEBU] {5860958b79d14617605a2c41d7364038} [  1 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:04:45.314 [DEBU] {1000c62386d14617615a2c4154dc7de1} [  8 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:04:49.273 [DEBU] {305fa91087d14617635a2c41e8defa6d} [  1 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:17:46.364 [DEBU] {70166af83bd246173286d1625611202a} [108 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 01:17:46.367 [DEBU] {70166af83bd246173286d1625611202a} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:21:29.952 [DEBU] {8027e70770d246179d40d82318e67bcd} [ 79 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 01:21:29.966 [DEBU] {8027e70770d246179d40d82318e67bcd} [ 13 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:23:29.344 [DEBU] {689b28d68bd246179e40d823b9ec761e} [ 57 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:24:12.642 [DEBU] {b095a6ed95d246179f40d823f02e3f8f} [ 18 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:25:03.149 [DEBU] {80f3a9b0a1d24617a040d82360519fa6} [ 11 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:25:23.548 [DEBU] {50e81071a6d24617a140d823d995b5e5} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:25:38.142 [DEBU] {c09170d6a9d24617a240d823ef834f7a} [ 11 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:26:13.277 [DEBU] {a8807204b2d24617a340d8230f151cbb} [ 12 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:26:32.339 [DEBU] {b04d5575b6d24617a440d823578d3bd7} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:27:15.593 [DEBU] {c0f94a87c0d24617a540d82339ea64ad} [  5 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:27:23.751 [DEBU] {78fdc96dc2d24617a640d823efb9c724} [  1 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:28:24.436 [DEBU] {40649e8ed0d24617a840d823b855b82c} [  6 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 01:29:10.312 [DEBU] {00374e37dbd246170ea3271826d81150} [ 98 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 01:29:10.316 [DEBU] {00374e37dbd246170ea3271826d81150} [  2 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 12:34:07.493 [DEBU] {b812a77824f74617ba0e9f111f39bb77} [233 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 12:34:07.503 [DEBU] {b812a77824f74617ba0e9f111f39bb77} [  7 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 13:51:04.808 [DEBU] {988f5a8b57fb4617de6ac101baa6d3f4} [135 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 13:51:04.822 [DEBU] {988f5a8b57fb4617de6ac101baa6d3f4} [ 10 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512' ORDER BY `create_time` DESC,`is_stick` DESC
+2023-02-25 13:52:25.756 [DEBU] {78771e606afb4617327d9612a81d41b3} [215 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 13:52:25.759 [DEBU] {78771e606afb4617327d9612a81d41b3} [  2 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512' ORDER BY `create_time` DESC,`is_stick` DESC
+2023-02-25 13:52:25.763 [DEBU] {78771e606afb4617327d9612a81d41b3} [  3 ms] [default] [blog] [rows:3  ] SELECT `article_id`,`user_id`,`article_content`,`article_title`,`is_stick`,`group_id`,`create_time`,`update_time` FROM `blog_article` WHERE `user_id`='417122001472192512' ORDER BY `create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 13:54:48.546 [DEBU] {108f4a9f8bfb4617eebcf11f3be57a41} [212 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 13:54:48.554 [DEBU] {108f4a9f8bfb4617eebcf11f3be57a41} [  6 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512' ORDER BY `create_time` DESC,`is_stick` DESC
+2023-02-25 13:54:48.564 [DEBU] {108f4a9f8bfb4617eebcf11f3be57a41} [  8 ms] [default] [blog] [rows:3  ] SELECT `article_id`,`user_id`,`article_content`,`article_title`,`is_stick`,`group_id`,`create_time`,`update_time` FROM `blog_article` WHERE `user_id`='417122001472192512' ORDER BY `create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 14:05:06.487 [DEBU] {b8fa867d1bfc461700cc4b6e26fe07de} [226 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 14:05:06.513 [DEBU] {b8fa867d1bfc461700cc4b6e26fe07de} [ 15 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 14:23:37.448 [DEBU] {181ed11a1efd46176a826c3625a82930} [459 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 14:23:37.452 [DEBU] {181ed11a1efd46176a826c3625a82930} [  2 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 14:23:37.455 [ERRO] {181ed11a1efd46176a826c3625a82930} [  1 ms] [default] [blog] [rows:0  ] SELECT COUNT(blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name) FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `create_time` DESC,`is_stick` DESC
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',blog_article.user_id,blog_article.article_content,blog_article.article_title,bl' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:40
+9.  gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+11. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+18. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+20. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+22. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+24. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+26. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+28. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+30. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 14:39:10.168 [DEBU] {b0ca6b5cf7fd4617a2d19878134c911b} [ 72 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 14:39:10.174 [DEBU] {b0ca6b5cf7fd4617a2d19878134c911b} [  5 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 14:39:10.176 [ERRO] {b0ca6b5cf7fd4617a2d19878134c911b} [  1 ms] [default] [blog] [rows:0  ] SELECT COUNT(blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name) FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE (blog_article.`user_id`='417122001472192512') AND (`blog_article`.article_id) ORDER BY `blog_article` create_time,`is_stick` DESC
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',blog_article.user_id,blog_article.article_content,blog_article.article_title,bl' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:314
+9.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:40
+10. gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+11. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+12. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+15. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 14:51:16.334 [DEBU] {1865c16ea0fe4617271933601cfa67bd} [ 83 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 14:51:16.339 [DEBU] {1865c16ea0fe4617271933601cfa67bd} [  4 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 14:51:16.344 [ERRO] {1865c16ea0fe4617271933601cfa67bd} [  4 ms] [default] [blog] [rows:0  ] SELECT COUNT(blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name) FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE (blog_article.`user_id`='417122001472192512') AND (`blog_article`.article_id) ORDER BY `blog_article` create_time,`is_stick` DESC
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',blog_article.user_id,blog_article.article_content,blog_article.article_title,bl' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:314
+9.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:40
+10. gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+11. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+12. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+15. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 15:01:45.525 [DEBU] {f882a3ec32ff4617f961e149a92f70fc} [ 95 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:01:45.529 [DEBU] {f882a3ec32ff4617f961e149a92f70fc} [  3 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:01:45.532 [ERRO] {f882a3ec32ff4617f961e149a92f70fc} [  2 ms] [default] [blog] [rows:0  ] SELECT COUNT(blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name) FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE (blog_article.`user_id`='417122001472192512') AND (`blog_article`.article_id) ORDER BY `blog_article`.`create_time` %!v(MISSING),`is_stick` DESC
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',blog_article.user_id,blog_article.article_content,blog_article.article_title,bl' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:314
+9.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:42
+10. gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+11. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+12. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+15. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 15:02:41.750 [DEBU] {e0357f0440ff46176a23cd32f65e13f5} [ 89 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:02:41.756 [DEBU] {e0357f0440ff46176a23cd32f65e13f5} [  5 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:02:41.756 [ERRO] {e0357f0440ff46176a23cd32f65e13f5} [  0 ms] [default] [blog] [rows:0  ] SELECT COUNT(blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name) FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE (blog_article.`user_id`='417122001472192512') AND (`blog_article`.article_id) ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',blog_article.user_id,blog_article.article_content,blog_article.article_title,bl' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:314
+9.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:42
+10. gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+11. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+12. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+15. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+17. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+19. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+21. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+23. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+25. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+27. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+29. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+31. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 15:06:48.951 [DEBU] {28efd99179ff461702b67b170325d753} [103 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:06:48.965 [DEBU] {28efd99179ff461702b67b170325d753} [ 12 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:06:48.973 [ERRO] {28efd99179ff461702b67b170325d753} [  7 ms] [default] [blog] [rows:0  ] SELECT COUNT(blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name) FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',blog_article.user_id,blog_article.article_content,blog_article.article_title,bl' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:42
+9.  gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+11. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+18. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+20. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+22. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+24. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+26. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+28. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+30. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 15:08:21.255 [DEBU] {0011a20a8fff4617d9caf66024746934} [186 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:08:21.267 [DEBU] {0011a20a8fff4617d9caf66024746934} [  8 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:08:21.271 [ERRO] {0011a20a8fff4617d9caf66024746934} [  3 ms] [default] [blog] [rows:0  ] SELECT COUNT(blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name,blog_article.article_id) FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',blog_article.user_id,blog_article.article_content,blog_article.article_title,bl' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:42
+9.  gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+11. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+18. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+20. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+22. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+24. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+26. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+28. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+30. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 15:08:32.803 [DEBU] {700d0cb491ff46178535b86fadaa1307} [304 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:08:32.838 [DEBU] {700d0cb491ff46178535b86fadaa1307} [ 31 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:08:32.840 [ERRO] {700d0cb491ff46178535b86fadaa1307} [  1 ms] [default] [blog] [rows:0  ] SELECT COUNT(blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name,blog_article.article_id) FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',blog_article.user_id,blog_article.article_content,blog_article.article_title,bl' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:42
+9.  gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+11. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+18. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+20. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+22. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+24. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+26. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+28. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+30. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 15:11:00.379 [DEBU] {488efa17b4ff46174b2ab5570535ca56} [174 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:11:27.878 [DEBU] {10885383baff4617c0cb9858023b56da} [103 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:11:36.277 [DEBU] {6809146abcff46175b79b70f678cbd11} [335 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:12:19.574 [DEBU] {e0f3ec79c6ff4617d7295f15b71822d6} [416 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:12:43.508 [DEBU] {70714608ccff46177e4d1d52ed289bb9} [482 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:13:32.338 [DEBU] {d026e066d7ff4617e90e4170982baf71} [485 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:14:58.294 [DEBU] {30369673ebff4617677427672e42f796} [324 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:14:58.307 [DEBU] {30369673ebff4617677427672e42f796} [ 10 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:14:58.310 [ERRO] {30369673ebff4617677427672e42f796} [  2 ms] [default] [blog] [rows:0  ] SELECT COUNT(blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name,COUNT(`article_id`)) FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',blog_article.user_id,blog_article.article_content,blog_article.article_title,bl' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:42
+9.  gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+11. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+18. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+20. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+22. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+24. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+26. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+28. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+30. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 15:17:31.991 [DEBU] {e8ccbc340f00471734a62f2c6aae69ac} [459 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:17:32.004 [ERRO] {e8ccbc340f00471734a62f2c6aae69ac} [ 11 ms] [default] [blog] [rows:0  ] SELECT COUNT(COUNT(`article_id`)) FROM `blog_article` WHERE `user_id`='417122001472192512'
+Error: Error 1111 (HY000): Invalid use of group function
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).Count
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:318
+8.  gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:42
+9.  gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+10. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+11. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+12. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+16. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+18. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+20. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+22. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+24. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+26. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+28. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+30. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 15:18:04.721 [DEBU] {385724eb160047172d1cff18fdb35943} [ 65 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:18:04.726 [DEBU] {385724eb160047172d1cff18fdb35943} [  2 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:18:04.729 [DEBU] {385724eb160047172d1cff18fdb35943} [  3 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:18:04.734 [DEBU] {385724eb160047172d1cff18fdb35943} [  4 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 15:19:07.558 [DEBU] {184d018e250047176e2d3545e920088d} [ 26 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:19:07.562 [DEBU] {184d018e250047176e2d3545e920088d} [  2 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:19:07.566 [DEBU] {184d018e250047176e2d3545e920088d} [  4 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:19:07.566 [DEBU] {184d018e250047176e2d3545e920088d} [  0 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 15:19:14.029 [DEBU] {80e83612270047176f2d3545a51eccfc} [  1 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:19:14.031 [DEBU] {80e83612270047176f2d3545a51eccfc} [  1 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 15:19:19.904 [DEBU] {90924f7028004717702d35459a55bf21} [  1 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='1417122001472192512'
+2023-02-25 15:19:19.909 [DEBU] {90924f7028004717702d35459a55bf21} [  4 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='1417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 15:19:30.484 [DEBU] {58f867e62a004717712d354555819ccb} [  9 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:19:30.492 [DEBU] {58f867e62a004717712d354555819ccb} [  6 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 15:21:09.973 [DEBU] {e8880e0d4200471778a3172ae20e831d} [ 52 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:21:09.992 [DEBU] {e8880e0d4200471778a3172ae20e831d} [  7 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:21:09.995 [DEBU] {e8880e0d4200471778a3172ae20e831d} [  3 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:21:09.998 [DEBU] {e8880e0d4200471778a3172ae20e831d} [  2 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 15:21:15.535 [DEBU] {584d7a5c4300471779a3172a024bf1fb} [  2 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:21:15.536 [DEBU] {584d7a5c4300471779a3172a024bf1fb} [  1 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 15:21:55.298 [DEBU] {18c0d99d4c0047177aa3172af27c18c4} [ 12 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:21:55.305 [DEBU] {18c0d99d4c0047177aa3172af27c18c4} [  6 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` DESC LIMIT 0,10
+2023-02-25 15:22:47.757 [DEBU] {706c42cf580047173208db4a16bf760b} [103 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:22:47.774 [DEBU] {706c42cf580047173208db4a16bf760b} [ 15 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:22:47.778 [DEBU] {706c42cf580047173208db4a16bf760b} [  4 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:22:47.780 [DEBU] {706c42cf580047173208db4a16bf760b} [  1 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` ASC LIMIT 0,10
+2023-02-25 15:22:51.863 [DEBU] {c8e309c9590047173308db4a1ae7a440} [ 10 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:22:51.872 [DEBU] {c8e309c9590047173308db4a1ae7a440} [  8 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`is_stick` ASC LIMIT 0,10
+2023-02-25 15:24:30.100 [DEBU] {40e213a57000471781ef5c3815e66639} [ 74 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:24:30.114 [DEBU] {40e213a57000471781ef5c3815e66639} [ 12 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:24:30.122 [DEBU] {40e213a57000471781ef5c3815e66639} [  8 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:24:30.124 [ERRO] {40e213a57000471781ef5c3815e66639} [  2 ms] [default] [blog] [rows:0  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC blog_article.is_stick DESC LIMIT 0,10
+Error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blog_article.is_stick DESC LIMIT 0,10' at line 1
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAll
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:471
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).All
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:30
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).doStructs
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:173
+10. github.com/gogf/gf/v2/database/gdb.(*Model).Scan
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:214
+11. gf_blog/internal/logic/article.(*sArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:52
+12. gf_blog/internal/controller.(*cArticle).GetList
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:20
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+17. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+19. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+21. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+23. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+25. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+27. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+29. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+31. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+32. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+33. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 15:25:27.429 [DEBU] {58b6adf37d0047173c16a6471994653b} [246 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 15:25:27.452 [DEBU] {58b6adf37d0047173c16a6471994653b} [ 21 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 15:25:27.458 [DEBU] {58b6adf37d0047173c16a6471994653b} [  6 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 15:25:27.465 [DEBU] {58b6adf37d0047173c16a6471994653b} [  7 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `blog_article`.`create_time` DESC,`blog_article`.`is_stick` DESC LIMIT 0,10
+2023-02-25 21:04:06.869 [DEBU] {70bbccedf812471796ef2963c44fedf6} [259 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 21:04:06.881 [DEBU] {70bbccedf812471796ef2963c44fedf6} [  7 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 21:05:18.577 [DEBU] {1813b69909134717269925150b1cf91c} [403 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 21:05:18.853 [DEBU] {1813b69909134717269925150b1cf91c} [ 29 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 21:05:18.893 [DEBU] {40ae1dc409134717279925153de15362} [  8 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 21:05:50.259 [DEBU] {18bccb0a111347172899251555e95fb5} [ 69 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 21:05:50.271 [DEBU] {18bccb0a111347172899251555e95fb5} [ 10 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:05:50.281 [DEBU] {18bccb0a111347172899251555e95fb5} [ 10 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 21:05:50.283 [DEBU] {18bccb0a111347172899251555e95fb5} [  1 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 0,10
+2023-02-25 21:06:01.427 [DEBU] {38b5ceaa131347172a992515bfaea45b} [  8 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:06:01.463 [DEBU] {38b5ceaa131347172a992515bfaea45b} [ 24 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 0,10
+2023-02-25 21:06:29.770 [DEBU] {801a1c361a1347172b992515a53c283c} [219 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:06:29.834 [DEBU] {801a1c361a1347172b992515a53c283c} [ 16 ms] [default] [blog] [rows:2  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 0,2
+2023-02-25 21:06:33.177 [DEBU] {60256b0f1b1347172c992515b82c7039} [ 11 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:06:33.193 [DEBU] {60256b0f1b1347172c992515b82c7039} [  3 ms] [default] [blog] [rows:2  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 0,2
+2023-02-25 21:06:56.008 [DEBU] {70361c60201347172d992515dd271ce9} [ 12 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:06:56.017 [DEBU] {70361c60201347172d992515dd271ce9} [  7 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 2,2
+2023-02-25 21:07:09.260 [DEBU] {50c2f071231347172e992515f48ff172} [ 83 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:07:09.265 [DEBU] {50c2f071231347172e992515f48ff172} [  3 ms] [default] [blog] [rows:3  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 0,10
+2023-02-25 21:07:12.547 [DEBU] {c0c39d34241347172f9925152b8544b7} [ 87 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:07:12.556 [DEBU] {c0c39d34241347172f9925152b8544b7} [  4 ms] [default] [blog] [rows:2  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 0,2
+2023-02-25 21:07:28.719 [DEBU] {286fa9f82713471730992515c3c781c6} [ 86 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:07:28.737 [DEBU] {286fa9f82713471730992515c3c781c6} [  7 ms] [default] [blog] [rows:2  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 0,2
+2023-02-25 21:07:50.070 [DEBU] {50253af32c134717319925150c1adfed} [ 66 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:07:50.089 [DEBU] {50253af32c134717319925150c1adfed} [ 13 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 2,2
+2023-02-25 21:11:01.554 [DEBU] {c86c747c5913471725de3f256c5e2b42} [273 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 21:11:01.563 [DEBU] {c86c747c5913471725de3f256c5e2b42} [  8 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:11:01.588 [DEBU] {c86c747c5913471725de3f256c5e2b42} [ 25 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 21:11:01.600 [DEBU] {c86c747c5913471725de3f256c5e2b42} [ 12 ms] [default] [blog] [rows:2  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 0,2
+2023-02-25 21:12:10.980 [DEBU] {801d38a9691347171b369a6e8f72388a} [184 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 21:12:10.988 [DEBU] {801d38a9691347171b369a6e8f72388a} [  2 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 21:12:10.998 [DEBU] {801d38a9691347171b369a6e8f72388a} [ 10 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 21:12:11.003 [DEBU] {801d38a9691347171b369a6e8f72388a} [  5 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 2,2
+2023-02-25 23:30:28.421 [DEBU] {d8190199f51a4717a215040585f3e0e0} [ 64 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_introduction`
+2023-02-25 23:30:28.433 [DEBU] {d8190199f51a4717a215040585f3e0e0} [ 12 ms] [default] [blog] [rows:1  ] SELECT `introduction_id`,`user_id`,`content`,`create_time`,`update_time` FROM `blog_introduction` WHERE `user_id`='417122001472192512' LIMIT 1
+2023-02-25 23:31:08.665 [DEBU] {48fd37fbfe1a4717c0bfff69195a6afb} [  7 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:31:08.669 [DEBU] {48fd37fbfe1a4717c0bfff69195a6afb} [  3 ms] [default] [blog] [rows:1  ] SELECT COUNT(1) FROM `blog_article` WHERE `user_id`='417122001472192512'
+2023-02-25 23:31:08.671 [DEBU] {48fd37fbfe1a4717c0bfff69195a6afb} [  2 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:31:08.678 [DEBU] {48fd37fbfe1a4717c0bfff69195a6afb} [  7 ms] [default] [blog] [rows:2  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`user_id`='417122001472192512' ORDER BY `is_stick` DESC,`blog_article`.`create_time` DESC LIMIT 0,2
+2023-02-25 23:31:10.739 [ERRO] {60a63677ff1a4717c1bfff6976e0a95a} [  0 ms] [default] [blog] [rows:0  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE ceab282s1s41tmg7to9g LIMIT 1
+Error: Error 1054 (42S22): Unknown column 'ceab282s1s41tmg7to9g' in 'where clause'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAll
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:471
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).One
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:70
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).doStruct
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:129
+10. github.com/gogf/gf/v2/database/gdb.(*Model).Scan
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:217
+11. gf_blog/internal/logic/article.(*sArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:67
+12. gf_blog/internal/controller.(*cArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:32
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+17. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+19. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+21. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+23. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+25. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+27. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+29. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+31. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+32. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+33. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 23:31:18.711 [ERRO] {78cc4852011b4717c2bfff6974ee5eec} [  1 ms] [default] [blog] [rows:0  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE ceab282s1s41tmg7to9g LIMIT 1
+Error: Error 1054 (42S22): Unknown column 'ceab282s1s41tmg7to9g' in 'where clause'
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAll
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:471
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).One
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:70
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).doStruct
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:129
+10. github.com/gogf/gf/v2/database/gdb.(*Model).Scan
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:217
+11. gf_blog/internal/logic/article.(*sArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:67
+12. gf_blog/internal/controller.(*cArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:32
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+17. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+18. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+19. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+20. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+21. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+22. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+23. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+24. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+25. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+26. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+27. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+28. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+29. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+30. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+31. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+32. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+33. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 23:33:24.518 [DEBU] {88379d9c1e1b471771ee6b36a437b638} [  8 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:33:24.522 [DEBU] {88379d9c1e1b471771ee6b36a437b638} [  2 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:33:24.525 [DEBU] {88379d9c1e1b471771ee6b36a437b638} [  3 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:33:24.529 [DEBU] {88379d9c1e1b471771ee6b36a437b638} [  3 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:34:27.294 [DEBU] {d062323a2d1b4717729d142b45e2c742} [ 11 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:34:27.296 [DEBU] {d062323a2d1b4717729d142b45e2c742} [  2 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:34:27.297 [DEBU] {d062323a2d1b4717729d142b45e2c742} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:34:27.298 [DEBU] {d062323a2d1b4717729d142b45e2c742} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:35:04.847 [DEBU] {a8619ef8351b47173d1c2606e4f6deeb} [ 10 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:35:04.854 [DEBU] {a8619ef8351b47173d1c2606e4f6deeb} [  5 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:35:04.855 [DEBU] {a8619ef8351b47173d1c2606e4f6deeb} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:35:04.857 [DEBU] {a8619ef8351b47173d1c2606e4f6deeb} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:35:29.941 [DEBU] {f8927bd03b1b471798754c0d2c170738} [  7 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:35:29.947 [DEBU] {f8927bd03b1b471798754c0d2c170738} [  5 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:35:29.948 [DEBU] {f8927bd03b1b471798754c0d2c170738} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:35:29.950 [DEBU] {f8927bd03b1b471798754c0d2c170738} [  2 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:35:54.757 [DEBU] {98197e97411b47171ef6da0b93866b65} [  9 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:35:54.759 [DEBU] {98197e97411b47171ef6da0b93866b65} [  1 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:35:54.761 [DEBU] {98197e97411b47171ef6da0b93866b65} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:35:54.763 [DEBU] {98197e97411b47171ef6da0b93866b65} [  2 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:35:54.765 [ERRO] {98197e97411b47171ef6da0b93866b65} [  0 ms] [default] [blog] [rows:0  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id` IN ('{"ArticleId":"ceab282s1s41tmg7to9g"}')
+Error: sql: converting argument $1 type: unsupported type model.GetTagDataByArticleIdInput, a struct
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAll
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:471
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).All
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:30
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).doStructs
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:173
+10. github.com/gogf/gf/v2/database/gdb.(*Model).Scan
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:214
+11. gf_blog/internal/logic/article.(*sArticle).GetTagDataByArticleId
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:87
+12. gf_blog/internal/logic/article.(*sArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:72
+13. gf_blog/internal/controller.(*cArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:32
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+15. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+18. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+20. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+22. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+24. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+26. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+28. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+30. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+31. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+32. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+33. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+34. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 23:36:46.533 [DEBU] {a8098ca54d1b47177a82556ec3cb038b} [ 10 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:36:46.540 [DEBU] {a8098ca54d1b47177a82556ec3cb038b} [  6 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:36:46.541 [DEBU] {a8098ca54d1b47177a82556ec3cb038b} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:36:46.543 [DEBU] {a8098ca54d1b47177a82556ec3cb038b} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:36:46.544 [ERRO] {a8098ca54d1b47177a82556ec3cb038b} [  0 ms] [default] [blog] [rows:0  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='{"ArticleId":"ceab282s1s41tmg7to9g"}'
+Error: sql: converting argument $1 type: unsupported type model.GetTagDataByArticleIdInput, a struct
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAll
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:471
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).All
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:30
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).doStructs
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:173
+10. github.com/gogf/gf/v2/database/gdb.(*Model).Scan
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:214
+11. gf_blog/internal/logic/article.(*sArticle).GetTagDataByArticleId
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:87
+12. gf_blog/internal/logic/article.(*sArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:72
+13. gf_blog/internal/controller.(*cArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:32
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+15. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+18. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+20. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+22. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+24. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+26. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+28. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+30. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+31. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+32. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+33. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+34. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 23:37:01.388 [DEBU] {9045171b511b4717a1fdeb6e37587818} [  8 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:37:01.390 [DEBU] {9045171b511b4717a1fdeb6e37587818} [  1 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:37:01.392 [DEBU] {9045171b511b4717a1fdeb6e37587818} [  0 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:37:01.394 [DEBU] {9045171b511b4717a1fdeb6e37587818} [  2 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:37:01.396 [DEBU] {9045171b511b4717a1fdeb6e37587818} [  2 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:38:07.130 [DEBU] {a80c8069601b4717f0c1751e8cdbae80} [  9 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:38:07.133 [DEBU] {a80c8069601b4717f0c1751e8cdbae80} [  2 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:38:07.134 [DEBU] {a80c8069601b4717f0c1751e8cdbae80} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:38:07.137 [DEBU] {a80c8069601b4717f0c1751e8cdbae80} [  2 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:38:07.138 [DEBU] {a80c8069601b4717f0c1751e8cdbae80} [  1 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:38:34.155 [DEBU] {b8412bb4661b471767b5a6173f6d6eae} [ 12 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:38:34.157 [DEBU] {b8412bb4661b471767b5a6173f6d6eae} [  1 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:38:34.161 [DEBU] {b8412bb4661b471767b5a6173f6d6eae} [  3 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:38:34.163 [DEBU] {b8412bb4661b471767b5a6173f6d6eae} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:38:34.164 [DEBU] {b8412bb4661b471767b5a6173f6d6eae} [  0 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:39:48.544 [DEBU] {d0400106781b4717a184d3312cc4728a} [  9 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:39:48.547 [DEBU] {d0400106781b4717a184d3312cc4728a} [  2 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:39:48.548 [DEBU] {d0400106781b4717a184d3312cc4728a} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:39:48.550 [DEBU] {d0400106781b4717a184d3312cc4728a} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:39:48.551 [DEBU] {d0400106781b4717a184d3312cc4728a} [  1 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:41:06.976 [DEBU] {182e62498a1b47174cd71858092ea70d} [  6 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:41:06.982 [DEBU] {182e62498a1b47174cd71858092ea70d} [  4 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:41:06.987 [DEBU] {182e62498a1b47174cd71858092ea70d} [  4 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:41:06.992 [DEBU] {182e62498a1b47174cd71858092ea70d} [  5 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:41:06.993 [DEBU] {182e62498a1b47174cd71858092ea70d} [  1 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:41:11.996 [DEBU] {e876bd748b1b4717385ecb3de936a2d0} [  3 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:41:11.998 [DEBU] {e876bd748b1b4717385ecb3de936a2d0} [  1 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:41:11.999 [DEBU] {e876bd748b1b4717385ecb3de936a2d0} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:41:12.003 [DEBU] {e876bd748b1b4717385ecb3de936a2d0} [  4 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:41:12.005 [DEBU] {e876bd748b1b4717385ecb3de936a2d0} [  1 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:44:17.728 [DEBU] {004affb2b61b47171f06fc5ad782f8d8} [  7 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:44:17.732 [DEBU] {004affb2b61b47171f06fc5ad782f8d8} [  3 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:44:17.734 [DEBU] {004affb2b61b47171f06fc5ad782f8d8} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:44:17.736 [DEBU] {004affb2b61b47171f06fc5ad782f8d8} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:44:17.737 [DEBU] {004affb2b61b47171f06fc5ad782f8d8} [  0 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:46:22.066 [DEBU] {d01699a5d31b471776931b27936021d4} [ 16 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:46:22.071 [DEBU] {d01699a5d31b471776931b27936021d4} [  3 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:46:22.073 [DEBU] {d01699a5d31b471776931b27936021d4} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:46:22.075 [DEBU] {d01699a5d31b471776931b27936021d4} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:46:22.077 [DEBU] {d01699a5d31b471776931b27936021d4} [  1 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:47:15.898 [DEBU] {48dc682ce01b4717f034e6282b58bd83} [ 45 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:47:15.901 [DEBU] {48dc682ce01b4717f034e6282b58bd83} [  2 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:47:15.902 [DEBU] {48dc682ce01b4717f034e6282b58bd83} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:47:15.903 [DEBU] {48dc682ce01b4717f034e6282b58bd83} [  0 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:47:15.906 [DEBU] {48dc682ce01b4717f034e6282b58bd83} [  2 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:49:03.731 [DEBU] {404eb746f91b47177cd61c6f08367617} [ 64 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:49:03.733 [DEBU] {404eb746f91b47177cd61c6f08367617} [  1 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:49:03.735 [DEBU] {404eb746f91b47177cd61c6f08367617} [  2 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:49:03.736 [DEBU] {404eb746f91b47177cd61c6f08367617} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:49:03.738 [DEBU] {404eb746f91b47177cd61c6f08367617} [  2 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:49:04.743 [DEBU] {b87fe186f91b47177dd61c6f845a96f8} [  0 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:49:04.745 [DEBU] {b87fe186f91b47177dd61c6f845a96f8} [  1 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:49:05.475 [DEBU] {b04f7ab2f91b47177ed61c6fc85f81ed} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:49:05.477 [DEBU] {b04f7ab2f91b47177ed61c6fc85f81ed} [  0 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:51:53.233 [DEBU] {b8992ec1201c471734b5c2370c7af2c1} [  8 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:51:53.236 [DEBU] {b8992ec1201c471734b5c2370c7af2c1} [  2 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:51:53.238 [DEBU] {b8992ec1201c471734b5c2370c7af2c1} [  1 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:51:53.239 [DEBU] {b8992ec1201c471734b5c2370c7af2c1} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:51:53.240 [DEBU] {b8992ec1201c471734b5c2370c7af2c1} [  1 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:51:53.241 [DEBU] {b8992ec1201c471734b5c2370c7af2c1} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag`
+2023-02-25 23:51:53.242 [ERRO] {b8992ec1201c471734b5c2370c7af2c1} [  0 ms] [default] [blog] [rows:0  ] SELECT `id`,`name`,`url`,`create_time`,`update_time` FROM `blog_tag` WHERE `id` IN ('{"TagId":7}','{"TagId":8}','{"TagId":9}')
+Error: sql: converting argument $1 type: unsupported type article.data, a struct
+Stack:
+1.  github.com/gogf/gf/v2/database/gdb.(*Core).writeSqlToLogger
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:671
+2.  github.com/gogf/gf/v2/database/gdb.(*Core).DoCommit
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:279
+3.  github.com/gogf/gf/v2/database/gdb.(*Core).DoQuery
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core_underlying.go:75
+4.  github.com/gogf/gf/v2/database/gdb.(*Core).DoSelect
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_core.go:152
+5.  github.com/gogf/gf/v2/database/gdb.(*HookSelectInput).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_hook.go:113
+6.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAllBySql
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:492
+7.  github.com/gogf/gf/v2/database/gdb.(*Model).doGetAll
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:471
+8.  github.com/gogf/gf/v2/database/gdb.(*Model).All
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:30
+9.  github.com/gogf/gf/v2/database/gdb.(*Model).doStructs
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:173
+10. github.com/gogf/gf/v2/database/gdb.(*Model).Scan
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/database/gdb/gdb_model_select.go:214
+11. gf_blog/internal/logic/article.(*sArticle).GetTagDataByArticleId
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:97
+12. gf_blog/internal/logic/article.(*sArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:73
+13. gf_blog/internal/controller.(*cArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:32
+14. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+15. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+16. github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+18. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+20. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+22. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+24. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+25. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+26. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+27. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+28. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+29. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+30. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+31. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+32. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+33. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+34. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-25 23:57:43.401 [DEBU] {60039948721c4717e021bb7cfe0cc4ad} [ 12 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:57:43.403 [DEBU] {60039948721c4717e021bb7cfe0cc4ad} [  1 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:57:43.405 [DEBU] {60039948721c4717e021bb7cfe0cc4ad} [  2 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:57:43.407 [DEBU] {60039948721c4717e021bb7cfe0cc4ad} [  2 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:57:43.409 [DEBU] {60039948721c4717e021bb7cfe0cc4ad} [  2 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:57:43.411 [DEBU] {60039948721c4717e021bb7cfe0cc4ad} [  2 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag`
+2023-02-25 23:57:43.417 [DEBU] {60039948721c4717e021bb7cfe0cc4ad} [  6 ms] [default] [blog] [rows:0  ] SELECT `id`,`name`,`url`,`create_time`,`update_time` FROM `blog_tag` WHERE `id` IN (0,0,0,0,0,0,0,0,0,0)
+2023-02-25 23:58:59.364 [DEBU] {e8c113f8831c47175c49ec036b12ef9c} [ 12 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_article`
+2023-02-25 23:58:59.369 [DEBU] {e8c113f8831c47175c49ec036b12ef9c} [  4 ms] [default] [blog] [rows:8  ] SHOW FULL COLUMNS FROM `blog_user`
+2023-02-25 23:58:59.371 [DEBU] {e8c113f8831c47175c49ec036b12ef9c} [  2 ms] [default] [blog] [rows:1  ] SELECT blog_article.article_id,blog_article.user_id,blog_article.article_content,blog_article.article_title,blog_article.is_stick,blog_article.group_id,blog_article.create_time,blog_article.update_time,blog_user.user_name FROM `blog_article` LEFT JOIN `blog_user` ON (`blog_article`.`user_id`=`blog_user`.`user_id`) WHERE blog_article.`article_id`='ceab282s1s41tmg7to9g' LIMIT 1
+2023-02-25 23:58:59.372 [DEBU] {e8c113f8831c47175c49ec036b12ef9c} [  1 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag_associate`
+2023-02-25 23:58:59.373 [DEBU] {e8c113f8831c47175c49ec036b12ef9c} [  1 ms] [default] [blog] [rows:3  ] SELECT `tag_id` FROM `blog_tag_associate` WHERE `article_id`='ceab282s1s41tmg7to9g'
+2023-02-25 23:58:59.375 [DEBU] {e8c113f8831c47175c49ec036b12ef9c} [  2 ms] [default] [blog] [rows:5  ] SHOW FULL COLUMNS FROM `blog_tag`
+2023-02-25 23:58:59.377 [DEBU] {e8c113f8831c47175c49ec036b12ef9c} [  1 ms] [default] [blog] [rows:0  ] SELECT `id`,`name`,`url`,`create_time`,`update_time` FROM `blog_tag` WHERE `id` IN (0,0,0,0,0,0,0,0,0,0)

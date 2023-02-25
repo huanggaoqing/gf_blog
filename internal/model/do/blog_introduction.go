@@ -9,15 +9,12 @@ import (
 	"github.com/gogf/gf/v2/os/gtime"
 )
 
-// BlogArticle is the golang structure of table blog_article for DAO operations like Where/Data.
-type BlogArticle struct {
-	g.Meta         `orm:"table:blog_article, do:true"`
-	ArticleId      interface{} //
+// BlogIntroduction is the golang structure of table blog_introduction for DAO operations like Where/Data.
+type BlogIntroduction struct {
+	g.Meta         `orm:"table:blog_introduction, do:true"`
+	IntroductionId interface{} //
 	UserId         interface{} //
-	ArticleContent interface{} //
-	ArticleTitle   interface{} //
-	IsStick        interface{} //
-	GroupId        interface{} //
+	Content        interface{} //
 	CreateTime     *gtime.Time // 创建时间
 	UpdateTime     *gtime.Time // 更新时间
 }

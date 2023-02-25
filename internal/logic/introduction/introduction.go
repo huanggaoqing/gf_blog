@@ -21,7 +21,7 @@ type sIntroduction struct{}
 
 func (s *sIntroduction) GetByUserId(ctx context.Context, in *model.GetIntroductionByUserIdInput) (out *model.GetIntroductionByUserIdOutput, err error) {
 	out = &model.GetIntroductionByUserIdOutput{}
-	if err := dao.BlogProfile.Ctx(ctx).Where(dao.BlogProfile.Columns().UserId, in.UserId).Scan(out); err != nil {
+	if err := dao.BlogIntroduction.Ctx(ctx).Where(dao.BlogIntroduction.Columns().UserId, in.UserId).Scan(out); err != nil {
 		if err == sql.ErrNoRows {
 			return nil, gerror.New("没有自我介绍内容")
 		}

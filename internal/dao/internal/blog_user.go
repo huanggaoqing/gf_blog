@@ -24,12 +24,10 @@ type BlogUserColumns struct {
 	UserName    string //
 	Password    string //
 	PhoneNumber string //
-	UserType    string //
-	OpenId      string //
+	CreateTime  string // 创建时间
+	UpdateTime  string // 更新时间
 	Avatar      string //
 	Role        string //
-	CreateTime  string //
-	UpdateTime  string //
 }
 
 // blogUserColumns holds the columns for table blog_user.
@@ -38,12 +36,10 @@ var blogUserColumns = BlogUserColumns{
 	UserName:    "user_name",
 	Password:    "password",
 	PhoneNumber: "phone_number",
-	UserType:    "user_type",
-	OpenId:      "open_id",
-	Avatar:      "avatar",
-	Role:        "role",
 	CreateTime:  "create_time",
 	UpdateTime:  "update_time",
+	Avatar:      "avatar",
+	Role:        "role",
 }
 
 // NewBlogUserDao creates and returns a new DAO object for table data access.

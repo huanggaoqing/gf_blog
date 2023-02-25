@@ -16,10 +16,8 @@ type BlogUser struct {
 	UserName    interface{} //
 	Password    interface{} //
 	PhoneNumber interface{} //
-	UserType    interface{} //
-	OpenId      interface{} //
+	CreateTime  *gtime.Time // 创建时间
+	UpdateTime  *gtime.Time // 更新时间
 	Avatar      interface{} //
 	Role        interface{} //
-	CreateTime  *gtime.Time //
-	UpdateTime  *gtime.Time //
 }

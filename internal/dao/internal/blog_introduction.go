@@ -11,62 +11,62 @@ import (
 	"github.com/gogf/gf/v2/frame/g"
 )
 
-// BlogTagAssociateDao is the data access object for table blog_tag_associate.
-type BlogTagAssociateDao struct {
+// BlogIntroductionDao is the data access object for table blog_introduction.
+type BlogIntroductionDao struct {
 	table   string                  // table is the underlying table name of the DAO.
 	group   string                  // group is the database configuration group name of current DAO.
-	columns BlogTagAssociateColumns // columns contains all the column names of Table for convenient usage.
+	columns BlogIntroductionColumns // columns contains all the column names of Table for convenient usage.
 }
 
-// BlogTagAssociateColumns defines and stores column names for table blog_tag_associate.
-type BlogTagAssociateColumns struct {
-	Id         string //
-	ArticleId  string //
-	TagId      string //
-	CreateTime string // 创建时间
-	UpdateTime string // 更新时间
+// BlogIntroductionColumns defines and stores column names for table blog_introduction.
+type BlogIntroductionColumns struct {
+	IntroductionId string //
+	UserId         string //
+	Content        string //
+	CreateTime     string // 创建时间
+	UpdateTime     string // 更新时间
 }
 
-// blogTagAssociateColumns holds the columns for table blog_tag_associate.
-var blogTagAssociateColumns = BlogTagAssociateColumns{
-	Id:         "id",
-	ArticleId:  "article_id",
-	TagId:      "tag_id",
-	CreateTime: "create_time",
-	UpdateTime: "update_time",
+// blogIntroductionColumns holds the columns for table blog_introduction.
+var blogIntroductionColumns = BlogIntroductionColumns{
+	IntroductionId: "introduction_id",
+	UserId:         "user_id",
+	Content:        "content",
+	CreateTime:     "create_time",
+	UpdateTime:     "update_time",
 }
 
-// NewBlogTagAssociateDao creates and returns a new DAO object for table data access.
-func NewBlogTagAssociateDao() *BlogTagAssociateDao {
-	return &BlogTagAssociateDao{
+// NewBlogIntroductionDao creates and returns a new DAO object for table data access.
+func NewBlogIntroductionDao() *BlogIntroductionDao {
+	return &BlogIntroductionDao{
 		group:   "default",
-		table:   "blog_tag_associate",
-		columns: blogTagAssociateColumns,
+		table:   "blog_introduction",
+		columns: blogIntroductionColumns,
 	}
 }
 
 // DB retrieves and returns the underlying raw database management object of current DAO.
-func (dao *BlogTagAssociateDao) DB() gdb.DB {
+func (dao *BlogIntroductionDao) DB() gdb.DB {
 	return g.DB(dao.group)
 }
 
 // Table returns the table name of current dao.
-func (dao *BlogTagAssociateDao) Table() string {
+func (dao *BlogIntroductionDao) Table() string {
 	return dao.table
 }
 
 // Columns returns all column names of current dao.
-func (dao *BlogTagAssociateDao) Columns() BlogTagAssociateColumns {
+func (dao *BlogIntroductionDao) Columns() BlogIntroductionColumns {
 	return dao.columns
 }
 
 // Group returns the configuration group name of database of current dao.
-func (dao *BlogTagAssociateDao) Group() string {
+func (dao *BlogIntroductionDao) Group() string {
 	return dao.group
 }
 
 // Ctx creates and returns the Model for current DAO, It automatically sets the context for current operation.
-func (dao *BlogTagAssociateDao) Ctx(ctx context.Context) *gdb.Model {
+func (dao *BlogIntroductionDao) Ctx(ctx context.Context) *gdb.Model {
 	return dao.DB().Model(dao.table).Safe().Ctx(ctx)
 }
 
@@ -76,6 +76,6 @@ func (dao *BlogTagAssociateDao) Ctx(ctx context.Context) *gdb.Model {
 //
 // Note that, you should not Commit or Rollback the transaction in function f
 // as it is automatically handled by this function.
-func (dao *BlogTagAssociateDao) Transaction(ctx context.Context, f func(ctx context.Context, tx gdb.TX) error) (err error) {
+func (dao *BlogIntroductionDao) Transaction(ctx context.Context, f func(ctx context.Context, tx gdb.TX) error) (err error) {
 	return dao.Ctx(ctx).Transaction(ctx, f)
 }

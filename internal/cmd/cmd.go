@@ -29,6 +29,8 @@ var (
 				group.Bind(
 					controller.User.Register,
 					controller.Introduction.GetByUserId,
+					controller.Article.GetList,
+					controller.Article.GetDetail,
 				)
 				group.Group("/", func(group *ghttp.RouterGroup) {
 					// 启动token鉴权

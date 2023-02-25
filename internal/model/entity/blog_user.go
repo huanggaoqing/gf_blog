@@ -14,10 +14,8 @@ type BlogUser struct {
 	UserName    string      `json:"userName"    ` //
 	Password    string      `json:"password"    ` //
 	PhoneNumber string      `json:"phoneNumber" ` //
-	UserType    string      `json:"userType"    ` //
-	OpenId      string      `json:"openId"      ` //
+	CreateTime  *gtime.Time `json:"createTime"  ` // 创建时间
+	UpdateTime  *gtime.Time `json:"updateTime"  ` // 更新时间
 	Avatar      string      `json:"avatar"      ` //
 	Role        int64       `json:"role"        ` //
-	CreateTime  *gtime.Time `json:"createTime"  ` //
-	UpdateTime  *gtime.Time `json:"updateTime"  ` //
 }

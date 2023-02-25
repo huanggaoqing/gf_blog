@@ -26,8 +26,8 @@ type BlogArticleColumns struct {
 	ArticleTitle   string //
 	IsStick        string //
 	GroupId        string //
-	CreateTime     string //
-	UpdateTime     string //
+	CreateTime     string // 创建时间
+	UpdateTime     string // 更新时间
 }
 
 // blogArticleColumns holds the columns for table blog_article.

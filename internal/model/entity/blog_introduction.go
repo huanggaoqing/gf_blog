@@ -8,14 +8,11 @@ import (
 	"github.com/gogf/gf/v2/os/gtime"
 )
 
-// BlogArticle is the golang structure for table blog_article.
-type BlogArticle struct {
-	ArticleId      string      `json:"articleId"      ` //
+// BlogIntroduction is the golang structure for table blog_introduction.
+type BlogIntroduction struct {
+	IntroductionId string      `json:"introductionId" ` //
 	UserId         string      `json:"userId"         ` //
-	ArticleContent string      `json:"articleContent" ` //
-	ArticleTitle   string      `json:"articleTitle"   ` //
-	IsStick        int64       `json:"isStick"        ` //
-	GroupId        int64       `json:"groupId"        ` //
+	Content        string      `json:"content"        ` //
 	CreateTime     *gtime.Time `json:"createTime"     ` // 创建时间
 	UpdateTime     *gtime.Time `json:"updateTime"     ` // 更新时间
 }

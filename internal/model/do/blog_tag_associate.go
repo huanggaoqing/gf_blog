@@ -6,11 +6,15 @@ package do
 
 import (
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/gogf/gf/v2/os/gtime"
 )
 
 // BlogTagAssociate is the golang structure of table blog_tag_associate for DAO operations like Where/Data.
 type BlogTagAssociate struct {
-	g.Meta    `orm:"table:blog_tag_associate, do:true"`
-	ArticleId interface{} //
-	TagId     interface{} //
+	g.Meta     `orm:"table:blog_tag_associate, do:true"`
+	Id         interface{} //
+	ArticleId  interface{} //
+	TagId      interface{} //
+	CreateTime *gtime.Time // 创建时间
+	UpdateTime *gtime.Time // 更新时间
 }

@@ -1,0 +1,128 @@
+2023-02-26 00:14:16.526 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:14:20.071 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:14:20.861 [ERRO] {8069c7825a1d4717f7d1e0059fa1f295} reflect: call of reflect.Value.NumField on int Value
+Stack:
+1.  gf_blog/internal/logic/article.(*sArticle).GetTagDataByArticleId
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:96
+2.  gf_blog/internal/logic/article.(*sArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:72
+3.  gf_blog/internal/controller.(*cArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:32
+4.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+5.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+7.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+8.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+9.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+10. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+11. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+12. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+16. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+18. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+20. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+24. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-26 00:14:24.063 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:14:26.636 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:14:40.923 [ERRO] {6857df305f1d4717c1d0455e60e50517} reflect: call of reflect.Value.NumField on int Value
+Stack:
+1.  gf_blog/internal/logic/article.(*sArticle).GetTagDataByArticleId
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:96
+2.  gf_blog/internal/logic/article.(*sArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/logic/article/article.go:72
+3.  gf_blog/internal/controller.(*cArticle).GetDetail
+    /Users/hgq/workspace/go/gf_blog/internal/controller/article.go:32
+4.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:152
+5.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+6.  github.com/gogf/gf/v2/net/ghttp.(*middleware).callHandlerFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:129
+7.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.4
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:90
+8.  github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+9.  github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:89
+10. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+11. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+12. github.com/gogf/gf/v2/net/ghttp.MiddlewareHandlerResponse
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_handler_response.go:25
+13. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:55
+14. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+15. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:54
+16. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+17. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+18. github.com/gogf/gf/v2/net/ghttp.internalMiddlewareServerTracing
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_middleware_tracing.go:78
+19. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1.5
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:96
+20. github.com/gogf/gf/v2/net/ghttp.niceCallFunc
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_func.go:55
+21. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next.func1
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:95
+22. github.com/gogf/gf/v2/util/gutil.TryCatch
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/util/gutil/gutil.go:56
+23. github.com/gogf/gf/v2/net/ghttp.(*middleware).Next
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_request_middleware.go:49
+24. github.com/gogf/gf/v2/net/ghttp.(*Server).ServeHTTP
+    /Users/hgq/workspace/golang/pkg/mod/github.com/gogf/gf/v2@v2.3.2/net/ghttp/ghttp_server_handler.go:132
+
+2023-02-26 00:14:44.407 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:14:54.010 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:15:09.674 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:15:13.711 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:15:17.093 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:15:24.400 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:16:22.180 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:17:46.917 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:19:45.857 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:22:34.671 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:22:44.937 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:22:52.480 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:24:28.065 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:24:50.749 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:26:27.812 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:53:55.948 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:55:04.716 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:55:07.446 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:55:11.506 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:56:30.019 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:57:14.865 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
+2023-02-26 00:57:52.704 [INFO] {00796a83f21a4717e13a401cfbd8259e} [GToken][params:{"AuthExcludePaths":"","AuthFailMsg":"请求错误或登录超时","AuthPaths":"","CacheKey":"GToken:","CacheMode":2,"EncryptKey":"12345678912345678912345678912345","LoginPath":"/user/login","LogoutPath":"/user/logout","MiddlewareType":1,"MultiLogin":false,"Timeout":864000000,"TokenDelimiter":"_"}]start... 
