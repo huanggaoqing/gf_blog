@@ -31,6 +31,7 @@ var (
 					controller.Introduction.GetByUserId,
 					controller.Article.GetList,
 					controller.Article.GetDetail,
+					controller.Project.GetListByUserId,
 				)
 				group.Group("/", func(group *ghttp.RouterGroup) {
 					// 启动token鉴权
