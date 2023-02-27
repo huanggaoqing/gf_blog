@@ -3,7 +3,7 @@ package cmd
 import (
 	"context"
 	"gf_blog/internal/cmd/loginAuth"
-
+	"gf_blog/internal/service"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/gcmd"
@@ -24,7 +24,10 @@ var (
 			}
 			// 客户端
 			s.Group("/frontend", func(group *ghttp.RouterGroup) {
-				group.Middleware(ghttp.MiddlewareHandlerResponse)
+				group.Middleware(
+					service.Middleware().CORS,
+					ghttp.MiddlewareHandlerResponse,
+				)
 				// 不需要token鉴权的路由
 				group.Bind(
 					controller.User.Register,
