@@ -17,6 +17,8 @@ var (
 		Usage: "main",
 		Brief: "start http server",
 		Func: func(ctx context.Context, parser *gcmd.Parser) (err error) {
+			test := g.Cfg().MustGet(ctx, "test").String()
+			g.Log().Debug(ctx, "当前环境", test)
 			s := g.Server()
 			frontendToken, err := loginAuth.StartFrontendToken()
 			if err != nil {

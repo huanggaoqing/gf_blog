@@ -25,5 +25,5 @@ logger:
   level : "all"
   stdout: true
 
-
+test: "dev"
 
