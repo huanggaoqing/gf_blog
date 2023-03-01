@@ -14,6 +14,17 @@ sh setup.sh
 sh push.sh
 ```
 
+## 后台运行镜像
+```
+docker run -d --name blog_server -p 8066:8066 huanggaoqing/blog_server:blog_server-v1.0
+```
+
+## 进入容器内部
+
+```
+docker exec -i -t blog_server /bin/bash
+```
+
 # 交叉编译
 
 ## for Linux

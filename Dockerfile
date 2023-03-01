@@ -14,4 +14,4 @@ RUN chmod +x $WORKDIR
 ###############################################################################
 WORKDIR $WORKDIR
 #CMD GF_GCFG_FILE=config.prod.toml
-CMD GF_GCFG_FILE=config.prod.toml; ./main
+CMD ./main

@@ -11,12 +11,12 @@ database:
     ctxKeys: [ "RequestId" ]
 
   default: # todo  修改成自己的密码
-    link: "mysql:root:huanggaoqing0119@tcp(127.0.0.1:3306)/blog"
+    link: "mysql:root:huanggaoqing0119@tcp(121.4.245.112:3306)/blog"
     debug: true
 
 redis:
   default:
-    address: 127.0.0.1:6379
+    address: 121.4.245.112:6379
     db:      0
 
 logger:
