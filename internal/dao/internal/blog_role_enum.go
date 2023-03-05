@@ -11,64 +11,60 @@ import (
 	"github.com/gogf/gf/v2/frame/g"
 )
 
-// BlogRoleDao is the data access object for table blog_role.
-type BlogRoleDao struct {
-	table   string          // table is the underlying table name of the DAO.
-	group   string          // group is the database configuration group name of current DAO.
-	columns BlogRoleColumns // columns contains all the column names of Table for convenient usage.
+// BlogRoleEnumDao is the data access object for table blog_role_enum.
+type BlogRoleEnumDao struct {
+	table   string              // table is the underlying table name of the DAO.
+	group   string              // group is the database configuration group name of current DAO.
+	columns BlogRoleEnumColumns // columns contains all the column names of Table for convenient usage.
 }
 
-// BlogRoleColumns defines and stores column names for table blog_role.
-type BlogRoleColumns struct {
-	Id         string // id
-	RoleCode   string // 角色id
-	RoleName   string // 角色名
-	UserId     string // 用户id
-	CreateTime string // 创建时间
-	UpdateTime string // 更新时间
+// BlogRoleEnumColumns defines and stores column names for table blog_role_enum.
+type BlogRoleEnumColumns struct {
+	RoleId     string //
+	RoleName   string //
+	CreateTime string //
+	UpdateTime string //
 }
 
-// blogRoleColumns holds the columns for table blog_role.
-var blogRoleColumns = BlogRoleColumns{
-	Id:         "id",
-	RoleCode:   "role_code",
+// blogRoleEnumColumns holds the columns for table blog_role_enum.
+var blogRoleEnumColumns = BlogRoleEnumColumns{
+	RoleId:     "role_id",
 	RoleName:   "role_name",
-	UserId:     "user_id",
 	CreateTime: "create_time",
 	UpdateTime: "update_time",
 }
 
-// NewBlogRoleDao creates and returns a new DAO object for table data access.
-func NewBlogRoleDao() *BlogRoleDao {
-	return &BlogRoleDao{
+// NewBlogRoleEnumDao creates and returns a new DAO object for table data access.
+func NewBlogRoleEnumDao() *BlogRoleEnumDao {
+	return &BlogRoleEnumDao{
 		group:   "default",
-		table:   "blog_role",
-		columns: blogRoleColumns,
+		table:   "blog_role_enum",
+		columns: blogRoleEnumColumns,
 	}
 }
 
 // DB retrieves and returns the underlying raw database management object of current DAO.
-func (dao *BlogRoleDao) DB() gdb.DB {
+func (dao *BlogRoleEnumDao) DB() gdb.DB {
 	return g.DB(dao.group)
 }
 
 // Table returns the table name of current dao.
-func (dao *BlogRoleDao) Table() string {
+func (dao *BlogRoleEnumDao) Table() string {
 	return dao.table
 }
 
 // Columns returns all column names of current dao.
-func (dao *BlogRoleDao) Columns() BlogRoleColumns {
+func (dao *BlogRoleEnumDao) Columns() BlogRoleEnumColumns {
 	return dao.columns
 }
 
 // Group returns the configuration group name of database of current dao.
-func (dao *BlogRoleDao) Group() string {
+func (dao *BlogRoleEnumDao) Group() string {
 	return dao.group
 }
 
 // Ctx creates and returns the Model for current DAO, It automatically sets the context for current operation.
-func (dao *BlogRoleDao) Ctx(ctx context.Context) *gdb.Model {
+func (dao *BlogRoleEnumDao) Ctx(ctx context.Context) *gdb.Model {
 	return dao.DB().Model(dao.table).Safe().Ctx(ctx)
 }
 
@@ -78,6 +74,6 @@ func (dao *BlogRoleDao) Ctx(ctx context.Context) *gdb.Model {
 //
 // Note that, you should not Commit or Rollback the transaction in function f
 // as it is automatically handled by this function.
-func (dao *BlogRoleDao) Transaction(ctx context.Context, f func(ctx context.Context, tx gdb.TX) error) (err error) {
+func (dao *BlogRoleEnumDao) Transaction(ctx context.Context, f func(ctx context.Context, tx gdb.TX) error) (err error) {
 	return dao.Ctx(ctx).Transaction(ctx, f)
 }

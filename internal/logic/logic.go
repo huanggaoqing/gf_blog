@@ -6,6 +6,7 @@ package logic
 
 import (
 	_ "gf_blog/internal/logic/article"
+	_ "gf_blog/internal/logic/file"
 	_ "gf_blog/internal/logic/introduction"
 	_ "gf_blog/internal/logic/middleware"
 	_ "gf_blog/internal/logic/project"

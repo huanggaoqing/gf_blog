@@ -12,8 +12,10 @@ import (
 // BlogRole is the golang structure of table blog_role for DAO operations like Where/Data.
 type BlogRole struct {
 	g.Meta     `orm:"table:blog_role, do:true"`
-	RoleId     interface{} //
-	RoleName   interface{} //
-	CreateTime *gtime.Time //
-	UpdateTime *gtime.Time //
+	Id         interface{} // id
+	RoleCode   interface{} // 角色id
+	RoleName   interface{} // 角色名
+	UserId     interface{} // 用户id
+	CreateTime *gtime.Time // 创建时间
+	UpdateTime *gtime.Time // 更新时间
 }

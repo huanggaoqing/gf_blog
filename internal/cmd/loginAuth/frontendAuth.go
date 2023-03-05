@@ -29,15 +29,14 @@ func StartFrontendToken() (frontendToken *gtoken.GfToken, err error) {
 
 // 登录验证方法 return userKey 用户标识 如果userKey为空，结束执行
 func frontendLoginBefore(r *ghttp.Request) (string, interface{}) {
-	name := r.Get("userName").String()
+	phoneNumber := r.Get("phoneNumber").String()
 	password := r.Get("password").String()
-	if name == "" || password == "" {
-		r.Response.WriteJson(gtoken.Fail("登录失败，账号或密码错误"))
-		r.ExitAll()
+	if phoneNumber == "" || password == "" {
+		utility.FailExit(r, -1, "登录失败，账号或密码错误")
 	}
 	user := &entity.BlogUser{}
 	err := dao.BlogUser.Ctx(context.TODO()).
-		Where(dao.BlogUser.Columns().UserName, name).
+		Where(dao.BlogUser.Columns().PhoneNumber, phoneNumber).
 		Where(dao.BlogUser.Columns().Password, password).
 		Scan(user)
 	if err != nil {

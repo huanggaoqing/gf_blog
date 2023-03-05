@@ -25,7 +25,9 @@ logger:
   level : "all"
   stdout: true
 
-test: "prod"
+upload:
+  projectImagePath: "upload/project"
+  avatarImagePath: "upload/avatar"
 
 
 

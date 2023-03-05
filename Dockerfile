@@ -7,6 +7,7 @@ FROM loads/alpine:3.8
 ENV WORKDIR                 /app
 COPY ./manifest/config/config.prod.yaml  $WORKDIR/config.yaml
 ADD ./main $WORKDIR
+ADD ./upload $WORKDIR/upload
 RUN chmod +x $WORKDIR
 
 ###############################################################################

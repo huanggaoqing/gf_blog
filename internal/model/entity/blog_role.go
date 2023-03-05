@@ -10,8 +10,10 @@ import (
 
 // BlogRole is the golang structure for table blog_role.
 type BlogRole struct {
-	RoleId     int64       `json:"roleId"     ` //
-	RoleName   string      `json:"roleName"   ` //
-	CreateTime *gtime.Time `json:"createTime" ` //
-	UpdateTime *gtime.Time `json:"updateTime" ` //
+	Id         string      `json:"id"         ` // id
+	RoleCode   int         `json:"roleCode"   ` // 角色id
+	RoleName   string      `json:"roleName"   ` // 角色名
+	UserId     string      `json:"userId"     ` // 用户id
+	CreateTime *gtime.Time `json:"createTime" ` // 创建时间
+	UpdateTime *gtime.Time `json:"updateTime" ` // 更新时间
 }
